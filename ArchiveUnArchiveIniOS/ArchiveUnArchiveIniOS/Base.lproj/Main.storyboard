@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6yg-IS-AaW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="gGf-Gb-D8d">
+            <objects>
+                <navigationController id="6yg-IS-AaW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cPD-qV-58c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="K36-oy-NRH" kind="relationship" relationship="rootViewController" id="Vz7-bt-vss"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k17-1D-amq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2786" y="-92"/>
+        </scene>
+        <!--rar zip 解压重新压缩为zip-->
+        <scene sceneID="DIN-Y8-4Rv">
+            <objects>
+                <viewController id="K36-oy-NRH" customClass="ArchiveUnArchiveViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fcd-Ga-Ezn"/>
+                        <viewControllerLayoutGuide type="bottom" id="scw-hL-Cxs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cw4-94-FeX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBq-bL-iaO">
+                                <rect key="frame" x="243" y="397" width="150" height="30"/>
+                                <state key="normal" title="解压文本文件乱码处理">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="uncompressEncodeFileContent:" destination="K36-oy-NRH" eventType="touchUpInside" id="UdX-22-uCP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFA-4G-PSv">
+                                <rect key="frame" x="243" y="359" width="135" height="30"/>
+                                <state key="normal" title="解压文件名乱码处理">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="uncompressEncodeFilename:" destination="K36-oy-NRH" eventType="touchUpInside" id="zJ7-tQ-TIG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQf-O2-tdg">
+                                <rect key="frame" x="243" y="240" width="49" height="30"/>
+                                <state key="normal" title="rar解压">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="unrar:" destination="K36-oy-NRH" eventType="touchUpInside" id="cAz-9Q-bWr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="434-3n-f2h">
+                                <rect key="frame" x="193" y="278" width="194" height="30"/>
+                                <state key="normal" title="rar解压有密码 密码ronghang">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="unrarpwd:" destination="K36-oy-NRH" eventType="touchUpInside" id="rPN-Uj-Hb0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYL-IV-VWK">
+                                <rect key="frame" x="243" y="115" width="115" height="30"/>
+                                <state key="normal" title="zip解压">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="unzip:" destination="K36-oy-NRH" eventType="touchUpInside" id="7pa-JG-qCu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acC-Od-RCy">
+                                <rect key="frame" x="223" y="153" width="175" height="30"/>
+                                <state key="normal" title="zip解压有密码：密码1234">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="unzippwd:" destination="K36-oy-NRH" eventType="touchUpInside" id="2OW-Z3-6lI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2I-85-tWZ">
+                                <rect key="frame" x="223" y="199" width="170" height="33"/>
+                                <state key="normal" title="zip重新压缩为zip">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="zip2zip:" destination="K36-oy-NRH" eventType="touchUpInside" id="o6c-F0-F9D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qts-bs-xk2">
+                                <rect key="frame" x="243" y="321" width="135" height="30"/>
+                                <state key="normal" title="rar重新压缩为zip">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rar2zip:" destination="K36-oy-NRH" eventType="touchUpInside" id="E7h-wH-3Vv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLi-tB-nn4">
+                                <rect key="frame" x="243" y="435" width="150" height="30"/>
+                                <state key="normal" title="压缩文本文件乱码处理">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="compressEncodeFileContent:" destination="K36-oy-NRH" eventType="touchUpInside" id="hpe-U1-aM1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="rar zip 解压重新压缩为zip" id="4al-U3-6gl"/>
+                    <connections>
+                        <outlet property="loading" destination="oT6-Mt-10L" id="NBB-vi-LRC"/>
+                        <outlet property="loadingMaskView" destination="ysg-OL-3dT" id="YkT-ps-r7l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQB-jw-w4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view hidden="YES" contentMode="scaleToFill" id="ysg-OL-3dT">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="处理中，请稍后" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOW-7c-lle">
+                            <rect key="frame" x="492" y="337" width="119" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="oT6-Mt-10L">
+                            <rect key="frame" x="436" y="338" width="20" height="20"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="-2099" y="-92"/>
+        </scene>
+    </scenes>
+</document>
