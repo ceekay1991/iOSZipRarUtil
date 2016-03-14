@@ -74,6 +74,10 @@
 		E167E3711BA13D3F00BF3001 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E3701BA13D3F00BF3001 /* CoreGraphics.framework */; };
 		E167E3731BA13D7400BF3001 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E3721BA13D7400BF3001 /* ImageIO.framework */; };
 		E167E3751BA13D8500BF3001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E3741BA13D8500BF3001 /* Foundation.framework */; };
+		E1E3111B1C96F4EE0093EAB4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E1E3111A1C96F4EE0093EAB4 /* README.md */; };
+		E1ED606C1C96F3A200985BAC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1ED60691C96F3A200985BAC /* 1.png */; };
+		E1ED606D1C96F3A200985BAC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1ED606A1C96F3A200985BAC /* 2.png */; };
+		E1ED606E1C96F3A200985BAC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E1ED606B1C96F3A200985BAC /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,6 +262,10 @@
 		E167E3721BA13D7400BF3001 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		E167E3741BA13D8500BF3001 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E167E3761BA13F4300BF3001 /* ArchiveUnArchiveIniOS.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveUnArchiveIniOS.pch; sourceTree = "<group>"; };
+		E1E3111A1C96F4EE0093EAB4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E1ED60691C96F3A200985BAC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E1ED606A1C96F3A200985BAC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E1ED606B1C96F3A200985BAC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +325,8 @@
 		E167E2731BA1338500BF3001 = {
 			isa = PBXGroup;
 			children = (
+				E1E3111A1C96F4EE0093EAB4 /* README.md */,
+				E1ED60681C96F3A200985BAC /* screenShoot */,
 				E133B1A31BA288A200C39984 /* TestData */,
 				E167E36E1BA13D3500BF3001 /* MobileCoreServices.framework */,
 				E167E3741BA13D8500BF3001 /* Foundation.framework */,
@@ -617,6 +627,16 @@
 			path = ZipZap;
 			sourceTree = "<group>";
 		};
+		E1ED60681C96F3A200985BAC /* screenShoot */ = {
+			isa = PBXGroup;
+			children = (
+				E1ED60691C96F3A200985BAC /* 1.png */,
+				E1ED606A1C96F3A200985BAC /* 2.png */,
+				E1ED606B1C96F3A200985BAC /* 3.png */,
+			);
+			path = screenShoot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -699,14 +719,17 @@
 			files = (
 				E167E28B1BA1338500BF3001 /* Main.storyboard in Resources */,
 				E133B1AD1BA2A46300C39984 /* 20150828122745_（tuyiyi.com分享）装逼模式+安卓手机的实时预览PS的APP.zip in Resources */,
+				E1ED606D1C96F3A200985BAC /* 2.png in Resources */,
 				E167E2901BA1338500BF3001 /* LaunchScreen.xib in Resources */,
 				E133B1A71BA288A200C39984 /* phplib.rar in Resources */,
 				E133B1A01BA2866C00C39984 /* FileViewController.xib in Resources */,
 				E133B1A91BA288A200C39984 /* TestArchive.rar in Resources */,
 				E133B1A21BA2866C00C39984 /* RootViewController.xib in Resources */,
 				E167E3461BA13C1C00BF3001 /* GB2312Freq.tab in Resources */,
+				E1ED606C1C96F3A200985BAC /* 1.png in Resources */,
 				E133B1AB1BA28E2C00C39984 /* testArchive.zip in Resources */,
 				E133B1A81BA288A200C39984 /* rarFolder.zip in Resources */,
+				E1ED606E1C96F3A200985BAC /* 3.png in Resources */,
 				E167E3451BA13C1C00BF3001 /* EUCTWFreq.tab in Resources */,
 				E167E3441BA13C1C00BF3001 /* EUCKRFreq.tab in Resources */,
 				E133B1AF1BA2A61500C39984 /* 顾西爵小说.zip in Resources */,
@@ -762,6 +785,7 @@
 				E167E35A1BA13C1C00BF3001 /* nsMBCSSM.cpp in Sources */,
 				E167E35F1BA13C1C00BF3001 /* nsUTF8Prober.cpp in Sources */,
 				E167E2821BA1338500BF3001 /* main.m in Sources */,
+				E1E3111B1C96F4EE0093EAB4 /* README.md in Sources */,
 				E167E34B1BA13C1C00BF3001 /* LangGreekModel.cpp in Sources */,
 				E167E3611BA13C1C00BF3001 /* uchardet.cpp in Sources */,
 				E167E35E1BA13C1C00BF3001 /* nsUniversalDetector.cpp in Sources */,
