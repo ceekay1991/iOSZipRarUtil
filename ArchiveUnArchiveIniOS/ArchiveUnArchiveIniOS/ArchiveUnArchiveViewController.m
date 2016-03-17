@@ -12,7 +12,8 @@
 #import "BDFileUtil.h"
 #import "RootViewController.h"
 #pragma warming 请修改自己的输出目录
-static NSString *const ArchiveUnArchiveViewControllerOutPath = @"/Users/test";
+//static NSString *const ArchiveUnArchiveViewControllerOutPath = @"/Users/test";
+#define ArchiveUnArchiveViewControllerOutPath [BDFileUtil getDocumentPath]
 
 @interface ArchiveUnArchiveViewController ()
 
@@ -26,9 +27,11 @@ static NSString *const ArchiveUnArchiveViewControllerOutPath = @"/Users/test";
 }
 
 - (void)unCompressFile:(NSString *)path {
+    
     [self unCompressFile:path showWithPreVC:NO];
 }
 - (void)unCompressFile:(NSString *)path showWithPreVC:(BOOL)usePreVC {
+    
     [self showLoading];
     [BDFileUtil deleteDirAtPath:[ArchiveUnArchiveViewControllerOutPath
                                     stringByAppendingString:[[path lastPathComponent] stringByDeletingPathExtension]]];
@@ -126,8 +129,9 @@ static NSString *const ArchiveUnArchiveViewControllerOutPath = @"/Users/test";
     [self unCompressFile:filePath];
 }
 
+//pwd 1234
 - (IBAction)unzippwd:(id)sender {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"testArchive" ofType:@"zip"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"京北驾校" ofType:@"zip"];
     [self unCompressFile:filePath];
 }
 
