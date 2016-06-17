@@ -12,6 +12,7 @@
 #import "UnrarKit.h"
 #import "ZipZap.h"
 
+
 typedef NS_ENUM(int, BDCompressFileType) { BDCompressFileTypeZip, BDCompressFileTypeRar, BDCompressFileTypeUnknow };
 
 typedef void (^BDCompressHandlerPwdBlock)(NSString *pwd);

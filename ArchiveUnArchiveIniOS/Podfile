@@ -1,0 +1,11 @@
+
+platform :ios, '6.0'
+def pods
+ pod 'UnrarKit', '~> 2.7.1'
+ pod 'zipzap', '~> 8.0'
+ pod 'ZipArchiveFork', '~> 1.3.0'
+end
+target 'ArchiveUnArchiveIniOS' do
+  pods
+end
+

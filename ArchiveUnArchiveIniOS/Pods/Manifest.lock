@@ -1,0 +1,26 @@
+PODS:
+  - UnrarKit (2.7.1):
+    - UnrarKit/unrar-lib (= 2.7.1)
+  - UnrarKit/unrar-lib (2.7.1)
+  - ZipArchiveFork (1.3.1)
+  - zipzap (8.0.3):
+    - zipzap/c++ (= 8.0.3)
+    - zipzap/objc (= 8.0.3)
+    - zipzap/objc++ (= 8.0.3)
+  - zipzap/c++ (8.0.3)
+  - zipzap/objc (8.0.3)
+  - zipzap/objc++ (8.0.3)
+
+DEPENDENCIES:
+  - UnrarKit (~> 2.7.1)
+  - ZipArchiveFork (~> 1.3.0)
+  - zipzap (~> 8.0)
+
+SPEC CHECKSUMS:
+  UnrarKit: 24135a2135660e3db84bcbeef44059999d52f174
+  ZipArchiveFork: d711657b3fc4be351833d0ab455330ac8ea745d3
+  zipzap: 888667fa52eb1799a32fa3ef8e77001356e796e4
+
+PODFILE CHECKSUM: 83f2c3e3ed59e66fa69d82a6ff5359f7d1e55c70
+
+COCOAPODS: 1.0.1

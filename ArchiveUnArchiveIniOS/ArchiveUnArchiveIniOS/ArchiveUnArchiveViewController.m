@@ -130,9 +130,28 @@
 }
 
 //pwd 1234
+//pwd 1234
 - (IBAction)unzippwd:(id)sender {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"京北驾校" ofType:@"zip"];
-    [self unCompressFile:filePath];
+    //NSString *filePath = [[NSBundle mainBundle] pathForResource:@"京北驾校" ofType:@"zip"];
+    
+    
+    [self unCompressFile:[self copyFile2Documents:@"testPwdZip" type:@"zip"]];
+}
+-(NSString*) copyFile2Documents:(NSString*)fileName type:(NSString *)type
+{
+    NSFileManager*fileManager =[NSFileManager defaultManager];
+    NSError*error;
+    NSArray*paths =NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+    NSString*documentsDirectory =[paths objectAtIndex:0];
+    
+    NSString*destPath =[[documentsDirectory stringByAppendingPathComponent:fileName] stringByAppendingFormat:@".%@",type];
+    
+    
+    if(![fileManager fileExistsAtPath:destPath]){
+        NSString* sourcePath =[[NSBundle mainBundle] pathForResource:fileName ofType:type];
+        [fileManager copyItemAtPath:sourcePath toPath:destPath error:&error];
+    }
+    return destPath;
 }
 
 - (IBAction)rar2zip:(id)sender {

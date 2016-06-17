@@ -67,5 +67,10 @@
 ## 三、备注
 --------------------------------------------------
 [FileBrowser代码为githugb](https://github.com/dai-jing/FileBrowser)
+## 四 截图
+--------------------------------------------------
+![image](https://raw.githubusercontent.com/ceekay1991/iOS_ZIP_RAR_compressionAndDecompression/master/ArchiveUnArchiveIniOS/screenShoot/1.png)
+![image](https://raw.githubusercontent.com/ceekay1991/iOS_ZIP_RAR_compressionAndDecompression/master/ArchiveUnArchiveIniOS/screenShoot/2.png)
+![image](https://raw.githubusercontent.com/ceekay1991/iOS_ZIP_RAR_compressionAndDecompression/master/ArchiveUnArchiveIniOS/screenShoot/3.png)
 
 

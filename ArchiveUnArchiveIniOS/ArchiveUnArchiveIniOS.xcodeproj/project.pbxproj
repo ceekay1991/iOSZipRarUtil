@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F12C9A90A1374D56D695D39 /* libPods-ArchiveUnArchiveIniOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9760E5EE553B614A1C59D8A9 /* libPods-ArchiveUnArchiveIniOS.a */; };
 		E133B1971BA273E000C39984 /* ArchiveUnArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E133B1961BA273E000C39984 /* ArchiveUnArchiveViewController.m */; };
 		E133B19F1BA2866C00C39984 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E133B19A1BA2866C00C39984 /* FileViewController.m */; };
 		E133B1A01BA2866C00C39984 /* FileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E133B19B1BA2866C00C39984 /* FileViewController.xib */; };
@@ -18,6 +19,7 @@
 		E133B1AB1BA28E2C00C39984 /* testArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = E133B1AA1BA28E2B00C39984 /* testArchive.zip */; };
 		E133B1AD1BA2A46300C39984 /* 20150828122745_（tuyiyi.com分享）装逼模式+安卓手机的实时预览PS的APP.zip in Resources */ = {isa = PBXBuildFile; fileRef = E133B1AC1BA2A46300C39984 /* 20150828122745_（tuyiyi.com分享）装逼模式+安卓手机的实时预览PS的APP.zip */; };
 		E133B1AF1BA2A61500C39984 /* 顾西爵小说.zip in Resources */ = {isa = PBXBuildFile; fileRef = E133B1AE1BA2A61500C39984 /* 顾西爵小说.zip */; };
+		E14831D61D13D59500793ADD /* testPwdZip.zip in Resources */ = {isa = PBXBuildFile; fileRef = E14831D51D13D59500793ADD /* testPwdZip.zip */; };
 		E167E2821BA1338500BF3001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E167E2811BA1338500BF3001 /* main.m */; };
 		E167E2851BA1338500BF3001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E167E2841BA1338500BF3001 /* AppDelegate.m */; };
 		E167E28B1BA1338500BF3001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E167E2891BA1338500BF3001 /* Main.storyboard */; };
@@ -26,11 +28,6 @@
 		E167E29C1BA1338500BF3001 /* ArchiveUnArchiveIniOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E167E29B1BA1338500BF3001 /* ArchiveUnArchiveIniOSTests.m */; };
 		E167E33A1BA13C1C00BF3001 /* BDCompressUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E167E2A71BA13C1C00BF3001 /* BDCompressUtil.m */; };
 		E167E33B1BA13C1C00BF3001 /* BDFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E167E2A91BA13C1C00BF3001 /* BDFileUtil.m */; };
-		E167E33C1BA13C1C00BF3001 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E167E2AE1BA13C1C00BF3001 /* ioapi.c */; };
-		E167E33D1BA13C1C00BF3001 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = E167E2B01BA13C1C00BF3001 /* mztools.c */; };
-		E167E33E1BA13C1C00BF3001 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E167E2B21BA13C1C00BF3001 /* unzip.c */; };
-		E167E33F1BA13C1C00BF3001 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E167E2B41BA13C1C00BF3001 /* zip.c */; };
-		E167E3401BA13C1C00BF3001 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = E167E2B71BA13C1C00BF3001 /* SSZipArchive.m */; };
 		E167E3411BA13C1C00BF3001 /* Big5Freq.tab in Resources */ = {isa = PBXBuildFile; fileRef = E167E2B91BA13C1C00BF3001 /* Big5Freq.tab */; };
 		E167E3421BA13C1C00BF3001 /* CharDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E167E2BA1BA13C1C00BF3001 /* CharDistribution.cpp */; };
 		E167E3431BA13C1C00BF3001 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = E167E2BC1BA13C1C00BF3001 /* CMakeLists.txt */; };
@@ -64,8 +61,6 @@
 		E167E35F1BA13C1C00BF3001 /* nsUTF8Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E167E2EA1BA13C1C00BF3001 /* nsUTF8Prober.cpp */; };
 		E167E3601BA13C1C00BF3001 /* symbols.cmake in Resources */ = {isa = PBXBuildFile; fileRef = E167E2ED1BA13C1C00BF3001 /* symbols.cmake */; };
 		E167E3611BA13C1C00BF3001 /* uchardet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E167E2EF1BA13C1C00BF3001 /* uchardet.cpp */; };
-		E167E3621BA13C1C00BF3001 /* libUnrarKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E3301BA13C1C00BF3001 /* libUnrarKit.a */; };
-		E167E3631BA13C1D00BF3001 /* libZipZap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E3391BA13C1C00BF3001 /* libZipZap.a */; };
 		E167E3671BA13CFC00BF3001 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E3661BA13CFC00BF3001 /* QuickLook.framework */; };
 		E167E3691BA13D0200BF3001 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E3681BA13D0200BF3001 /* libz.dylib */; };
 		E167E36B1BA13D1900BF3001 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E167E36A1BA13D1900BF3001 /* SystemConfiguration.framework */; };
@@ -92,6 +87,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E4E324949E55D5592C6A439 /* Pods-ArchiveUnArchiveIniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchiveUnArchiveIniOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchiveUnArchiveIniOS/Pods-ArchiveUnArchiveIniOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9760E5EE553B614A1C59D8A9 /* libPods-ArchiveUnArchiveIniOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchiveUnArchiveIniOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2202F6AB0E346F1BE3EC10 /* Pods-ArchiveUnArchiveIniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchiveUnArchiveIniOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchiveUnArchiveIniOS/Pods-ArchiveUnArchiveIniOS.release.xcconfig"; sourceTree = "<group>"; };
 		E133B1951BA273E000C39984 /* ArchiveUnArchiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveUnArchiveViewController.h; sourceTree = "<group>"; };
 		E133B1961BA273E000C39984 /* ArchiveUnArchiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveUnArchiveViewController.m; sourceTree = "<group>"; };
 		E133B1991BA2866C00C39984 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
@@ -106,6 +104,7 @@
 		E133B1AA1BA28E2B00C39984 /* testArchive.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = testArchive.zip; sourceTree = "<group>"; };
 		E133B1AC1BA2A46300C39984 /* 20150828122745_（tuyiyi.com分享）装逼模式+安卓手机的实时预览PS的APP.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "20150828122745_（tuyiyi.com分享）装逼模式+安卓手机的实时预览PS的APP.zip"; sourceTree = "<group>"; };
 		E133B1AE1BA2A61500C39984 /* 顾西爵小说.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "顾西爵小说.zip"; sourceTree = "<group>"; };
+		E14831D51D13D59500793ADD /* testPwdZip.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = testPwdZip.zip; sourceTree = "<group>"; };
 		E167E27C1BA1338500BF3001 /* ArchiveUnArchiveIniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchiveUnArchiveIniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E167E2801BA1338500BF3001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E167E2811BA1338500BF3001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,17 +120,6 @@
 		E167E2A71BA13C1C00BF3001 /* BDCompressUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDCompressUtil.m; sourceTree = "<group>"; };
 		E167E2A81BA13C1C00BF3001 /* BDFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDFileUtil.h; sourceTree = "<group>"; };
 		E167E2A91BA13C1C00BF3001 /* BDFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDFileUtil.m; sourceTree = "<group>"; };
-		E167E2AD1BA13C1C00BF3001 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		E167E2AE1BA13C1C00BF3001 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		E167E2AF1BA13C1C00BF3001 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		E167E2B01BA13C1C00BF3001 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		E167E2B11BA13C1C00BF3001 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		E167E2B21BA13C1C00BF3001 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		E167E2B31BA13C1C00BF3001 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		E167E2B41BA13C1C00BF3001 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		E167E2B51BA13C1C00BF3001 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		E167E2B61BA13C1C00BF3001 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
-		E167E2B71BA13C1C00BF3001 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
 		E167E2B91BA13C1C00BF3001 /* Big5Freq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Big5Freq.tab; sourceTree = "<group>"; };
 		E167E2BA1BA13C1C00BF3001 /* CharDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharDistribution.cpp; sourceTree = "<group>"; };
 		E167E2BB1BA13C1C00BF3001 /* CharDistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharDistribution.h; sourceTree = "<group>"; };
@@ -187,73 +175,6 @@
 		E167E2ED1BA13C1C00BF3001 /* symbols.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = symbols.cmake; sourceTree = "<group>"; };
 		E167E2EF1BA13C1C00BF3001 /* uchardet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uchardet.cpp; sourceTree = "<group>"; };
 		E167E2F01BA13C1C00BF3001 /* uchardet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchardet.h; sourceTree = "<group>"; };
-		E167E2F41BA13C1C00BF3001 /* archive.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = archive.hpp; sourceTree = "<group>"; };
-		E167E2F51BA13C1C00BF3001 /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
-		E167E2F61BA13C1C00BF3001 /* cmddata.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cmddata.hpp; sourceTree = "<group>"; };
-		E167E2F71BA13C1C00BF3001 /* coder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = coder.hpp; sourceTree = "<group>"; };
-		E167E2F81BA13C1C00BF3001 /* compress.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = compress.hpp; sourceTree = "<group>"; };
-		E167E2F91BA13C1C00BF3001 /* consio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = consio.hpp; sourceTree = "<group>"; };
-		E167E2FA1BA13C1C00BF3001 /* crc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = crc.hpp; sourceTree = "<group>"; };
-		E167E2FB1BA13C1C00BF3001 /* crypt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = crypt.hpp; sourceTree = "<group>"; };
-		E167E2FC1BA13C1C00BF3001 /* dll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dll.hpp; sourceTree = "<group>"; };
-		E167E2FD1BA13C1C00BF3001 /* encname.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = encname.hpp; sourceTree = "<group>"; };
-		E167E2FE1BA13C1C00BF3001 /* errhnd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = errhnd.hpp; sourceTree = "<group>"; };
-		E167E2FF1BA13C1C00BF3001 /* extinfo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = extinfo.hpp; sourceTree = "<group>"; };
-		E167E3001BA13C1C00BF3001 /* extract.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = extract.hpp; sourceTree = "<group>"; };
-		E167E3011BA13C1C00BF3001 /* filcreat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = filcreat.hpp; sourceTree = "<group>"; };
-		E167E3021BA13C1C00BF3001 /* file.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = file.hpp; sourceTree = "<group>"; };
-		E167E3031BA13C1C00BF3001 /* filefn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = filefn.hpp; sourceTree = "<group>"; };
-		E167E3041BA13C1C00BF3001 /* filestr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = filestr.hpp; sourceTree = "<group>"; };
-		E167E3051BA13C1C00BF3001 /* find.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = find.hpp; sourceTree = "<group>"; };
-		E167E3061BA13C1C00BF3001 /* getbits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = getbits.hpp; sourceTree = "<group>"; };
-		E167E3071BA13C1C00BF3001 /* global.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = global.hpp; sourceTree = "<group>"; };
-		E167E3081BA13C1C00BF3001 /* headers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = headers.hpp; sourceTree = "<group>"; };
-		E167E3091BA13C1C00BF3001 /* isnt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = isnt.hpp; sourceTree = "<group>"; };
-		E167E30A1BA13C1C00BF3001 /* list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = list.hpp; sourceTree = "<group>"; };
-		E167E30B1BA13C1C00BF3001 /* loclang.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = loclang.hpp; sourceTree = "<group>"; };
-		E167E30C1BA13C1C00BF3001 /* log.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = log.hpp; sourceTree = "<group>"; };
-		E167E30D1BA13C1C00BF3001 /* match.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = match.hpp; sourceTree = "<group>"; };
-		E167E30E1BA13C1C00BF3001 /* model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = model.hpp; sourceTree = "<group>"; };
-		E167E30F1BA13C1C00BF3001 /* options.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = options.hpp; sourceTree = "<group>"; };
-		E167E3101BA13C1C00BF3001 /* os.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = os.hpp; sourceTree = "<group>"; };
-		E167E3111BA13C1C00BF3001 /* pathfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pathfn.hpp; sourceTree = "<group>"; };
-		E167E3121BA13C1C00BF3001 /* rar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rar.hpp; sourceTree = "<group>"; };
-		E167E3131BA13C1C00BF3001 /* rardefs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rardefs.hpp; sourceTree = "<group>"; };
-		E167E3141BA13C1C00BF3001 /* rarlang.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rarlang.hpp; sourceTree = "<group>"; };
-		E167E3151BA13C1C00BF3001 /* raros.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = raros.hpp; sourceTree = "<group>"; };
-		E167E3161BA13C1C00BF3001 /* rartypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rartypes.hpp; sourceTree = "<group>"; };
-		E167E3171BA13C1C00BF3001 /* rarvm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rarvm.hpp; sourceTree = "<group>"; };
-		E167E3181BA13C1C00BF3001 /* rawread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rawread.hpp; sourceTree = "<group>"; };
-		E167E3191BA13C1C00BF3001 /* rdwrfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rdwrfn.hpp; sourceTree = "<group>"; };
-		E167E31A1BA13C1C00BF3001 /* recvol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = recvol.hpp; sourceTree = "<group>"; };
-		E167E31B1BA13C1C00BF3001 /* resource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = resource.hpp; sourceTree = "<group>"; };
-		E167E31C1BA13C1C00BF3001 /* rijndael.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rijndael.hpp; sourceTree = "<group>"; };
-		E167E31D1BA13C1C00BF3001 /* rs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
-		E167E31E1BA13C1C00BF3001 /* savepos.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = savepos.hpp; sourceTree = "<group>"; };
-		E167E31F1BA13C1C00BF3001 /* scantree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scantree.hpp; sourceTree = "<group>"; };
-		E167E3201BA13C1C00BF3001 /* secpassword.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = secpassword.hpp; sourceTree = "<group>"; };
-		E167E3211BA13C1C00BF3001 /* sha1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sha1.hpp; sourceTree = "<group>"; };
-		E167E3221BA13C1C00BF3001 /* smallfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = smallfn.hpp; sourceTree = "<group>"; };
-		E167E3231BA13C1C00BF3001 /* strfn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = strfn.hpp; sourceTree = "<group>"; };
-		E167E3241BA13C1C00BF3001 /* strlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = strlist.hpp; sourceTree = "<group>"; };
-		E167E3251BA13C1C00BF3001 /* suballoc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = suballoc.hpp; sourceTree = "<group>"; };
-		E167E3261BA13C1C00BF3001 /* system.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = system.hpp; sourceTree = "<group>"; };
-		E167E3271BA13C1C00BF3001 /* timefn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = timefn.hpp; sourceTree = "<group>"; };
-		E167E3281BA13C1C00BF3001 /* ulinks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ulinks.hpp; sourceTree = "<group>"; };
-		E167E3291BA13C1C00BF3001 /* unicode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = unicode.hpp; sourceTree = "<group>"; };
-		E167E32A1BA13C1C00BF3001 /* unpack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = unpack.hpp; sourceTree = "<group>"; };
-		E167E32B1BA13C1C00BF3001 /* UnrarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnrarKit.h; sourceTree = "<group>"; };
-		E167E32C1BA13C1C00BF3001 /* URKArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URKArchive.h; sourceTree = "<group>"; };
-		E167E32D1BA13C1C00BF3001 /* URKFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URKFileInfo.h; sourceTree = "<group>"; };
-		E167E32E1BA13C1C00BF3001 /* version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = version.hpp; sourceTree = "<group>"; };
-		E167E32F1BA13C1C00BF3001 /* volume.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = volume.hpp; sourceTree = "<group>"; };
-		E167E3301BA13C1C00BF3001 /* libUnrarKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUnrarKit.a; sourceTree = "<group>"; };
-		E167E3341BA13C1C00BF3001 /* ZipZap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipZap.h; sourceTree = "<group>"; };
-		E167E3351BA13C1C00BF3001 /* ZZArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZArchive.h; sourceTree = "<group>"; };
-		E167E3361BA13C1C00BF3001 /* ZZArchiveEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZArchiveEntry.h; sourceTree = "<group>"; };
-		E167E3371BA13C1C00BF3001 /* ZZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZConstants.h; sourceTree = "<group>"; };
-		E167E3381BA13C1C00BF3001 /* ZZError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZError.h; sourceTree = "<group>"; };
-		E167E3391BA13C1C00BF3001 /* libZipZap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZipZap.a; sourceTree = "<group>"; };
 		E167E3661BA13CFC00BF3001 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		E167E3681BA13D0200BF3001 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		E167E36A1BA13D1900BF3001 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -283,8 +204,7 @@
 				E167E36B1BA13D1900BF3001 /* SystemConfiguration.framework in Frameworks */,
 				E167E3691BA13D0200BF3001 /* libz.dylib in Frameworks */,
 				E167E3671BA13CFC00BF3001 /* QuickLook.framework in Frameworks */,
-				E167E3621BA13C1C00BF3001 /* libUnrarKit.a in Frameworks */,
-				E167E3631BA13C1D00BF3001 /* libZipZap.a in Frameworks */,
+				0F12C9A90A1374D56D695D39 /* libPods-ArchiveUnArchiveIniOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +218,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D225CE396DDAA534D06147F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9760E5EE553B614A1C59D8A9 /* libPods-ArchiveUnArchiveIniOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7004ABA77EDB6C745E5397C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E324949E55D5592C6A439 /* Pods-ArchiveUnArchiveIniOS.debug.xcconfig */,
+				BD2202F6AB0E346F1BE3EC10 /* Pods-ArchiveUnArchiveIniOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E133B1981BA2866C00C39984 /* FileBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +251,7 @@
 		E133B1A31BA288A200C39984 /* TestData */ = {
 			isa = PBXGroup;
 			children = (
+				E14831D51D13D59500793ADD /* testPwdZip.zip */,
 				E185FA781C9ABC0A00E05BE6 /* 京北驾校.zip */,
 				E133B1AE1BA2A61500C39984 /* 顾西爵小说.zip */,
 				E133B1AC1BA2A46300C39984 /* 20150828122745_（tuyiyi.com分享）装逼模式+安卓手机的实时预览PS的APP.zip */,
@@ -344,6 +282,8 @@
 				E167E27E1BA1338500BF3001 /* ArchiveUnArchiveIniOS */,
 				E167E2981BA1338500BF3001 /* ArchiveUnArchiveIniOSTests */,
 				E167E27D1BA1338500BF3001 /* Products */,
+				C7004ABA77EDB6C745E5397C /* Pods */,
+				1D225CE396DDAA534D06147F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -413,38 +353,9 @@
 		E167E2AA1BA13C1C00BF3001 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				E167E2AB1BA13C1C00BF3001 /* SSZipArchive */,
 				E167E2B81BA13C1C00BF3001 /* unchardet */,
-				E167E2F11BA13C1C00BF3001 /* UnrarKit */,
-				E167E3311BA13C1C00BF3001 /* ZipZap */,
 			);
 			path = ThirdParty;
-			sourceTree = "<group>";
-		};
-		E167E2AB1BA13C1C00BF3001 /* SSZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				E167E2AC1BA13C1C00BF3001 /* minizip */,
-				E167E2B61BA13C1C00BF3001 /* SSZipArchive.h */,
-				E167E2B71BA13C1C00BF3001 /* SSZipArchive.m */,
-			);
-			path = SSZipArchive;
-			sourceTree = "<group>";
-		};
-		E167E2AC1BA13C1C00BF3001 /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				E167E2AD1BA13C1C00BF3001 /* crypt.h */,
-				E167E2AE1BA13C1C00BF3001 /* ioapi.c */,
-				E167E2AF1BA13C1C00BF3001 /* ioapi.h */,
-				E167E2B01BA13C1C00BF3001 /* mztools.c */,
-				E167E2B11BA13C1C00BF3001 /* mztools.h */,
-				E167E2B21BA13C1C00BF3001 /* unzip.c */,
-				E167E2B31BA13C1C00BF3001 /* unzip.h */,
-				E167E2B41BA13C1C00BF3001 /* zip.c */,
-				E167E2B51BA13C1C00BF3001 /* zip.h */,
-			);
-			path = minizip;
 			sourceTree = "<group>";
 		};
 		E167E2B81BA13C1C00BF3001 /* unchardet */ = {
@@ -517,119 +428,6 @@
 			path = tools;
 			sourceTree = "<group>";
 		};
-		E167E2F11BA13C1C00BF3001 /* UnrarKit */ = {
-			isa = PBXGroup;
-			children = (
-				E167E2F21BA13C1C00BF3001 /* Headers */,
-				E167E3301BA13C1C00BF3001 /* libUnrarKit.a */,
-			);
-			path = UnrarKit;
-			sourceTree = "<group>";
-		};
-		E167E2F21BA13C1C00BF3001 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				E167E2F31BA13C1C00BF3001 /* UnrarKit */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		E167E2F31BA13C1C00BF3001 /* UnrarKit */ = {
-			isa = PBXGroup;
-			children = (
-				E167E2F41BA13C1C00BF3001 /* archive.hpp */,
-				E167E2F51BA13C1C00BF3001 /* array.hpp */,
-				E167E2F61BA13C1C00BF3001 /* cmddata.hpp */,
-				E167E2F71BA13C1C00BF3001 /* coder.hpp */,
-				E167E2F81BA13C1C00BF3001 /* compress.hpp */,
-				E167E2F91BA13C1C00BF3001 /* consio.hpp */,
-				E167E2FA1BA13C1C00BF3001 /* crc.hpp */,
-				E167E2FB1BA13C1C00BF3001 /* crypt.hpp */,
-				E167E2FC1BA13C1C00BF3001 /* dll.hpp */,
-				E167E2FD1BA13C1C00BF3001 /* encname.hpp */,
-				E167E2FE1BA13C1C00BF3001 /* errhnd.hpp */,
-				E167E2FF1BA13C1C00BF3001 /* extinfo.hpp */,
-				E167E3001BA13C1C00BF3001 /* extract.hpp */,
-				E167E3011BA13C1C00BF3001 /* filcreat.hpp */,
-				E167E3021BA13C1C00BF3001 /* file.hpp */,
-				E167E3031BA13C1C00BF3001 /* filefn.hpp */,
-				E167E3041BA13C1C00BF3001 /* filestr.hpp */,
-				E167E3051BA13C1C00BF3001 /* find.hpp */,
-				E167E3061BA13C1C00BF3001 /* getbits.hpp */,
-				E167E3071BA13C1C00BF3001 /* global.hpp */,
-				E167E3081BA13C1C00BF3001 /* headers.hpp */,
-				E167E3091BA13C1C00BF3001 /* isnt.hpp */,
-				E167E30A1BA13C1C00BF3001 /* list.hpp */,
-				E167E30B1BA13C1C00BF3001 /* loclang.hpp */,
-				E167E30C1BA13C1C00BF3001 /* log.hpp */,
-				E167E30D1BA13C1C00BF3001 /* match.hpp */,
-				E167E30E1BA13C1C00BF3001 /* model.hpp */,
-				E167E30F1BA13C1C00BF3001 /* options.hpp */,
-				E167E3101BA13C1C00BF3001 /* os.hpp */,
-				E167E3111BA13C1C00BF3001 /* pathfn.hpp */,
-				E167E3121BA13C1C00BF3001 /* rar.hpp */,
-				E167E3131BA13C1C00BF3001 /* rardefs.hpp */,
-				E167E3141BA13C1C00BF3001 /* rarlang.hpp */,
-				E167E3151BA13C1C00BF3001 /* raros.hpp */,
-				E167E3161BA13C1C00BF3001 /* rartypes.hpp */,
-				E167E3171BA13C1C00BF3001 /* rarvm.hpp */,
-				E167E3181BA13C1C00BF3001 /* rawread.hpp */,
-				E167E3191BA13C1C00BF3001 /* rdwrfn.hpp */,
-				E167E31A1BA13C1C00BF3001 /* recvol.hpp */,
-				E167E31B1BA13C1C00BF3001 /* resource.hpp */,
-				E167E31C1BA13C1C00BF3001 /* rijndael.hpp */,
-				E167E31D1BA13C1C00BF3001 /* rs.hpp */,
-				E167E31E1BA13C1C00BF3001 /* savepos.hpp */,
-				E167E31F1BA13C1C00BF3001 /* scantree.hpp */,
-				E167E3201BA13C1C00BF3001 /* secpassword.hpp */,
-				E167E3211BA13C1C00BF3001 /* sha1.hpp */,
-				E167E3221BA13C1C00BF3001 /* smallfn.hpp */,
-				E167E3231BA13C1C00BF3001 /* strfn.hpp */,
-				E167E3241BA13C1C00BF3001 /* strlist.hpp */,
-				E167E3251BA13C1C00BF3001 /* suballoc.hpp */,
-				E167E3261BA13C1C00BF3001 /* system.hpp */,
-				E167E3271BA13C1C00BF3001 /* timefn.hpp */,
-				E167E3281BA13C1C00BF3001 /* ulinks.hpp */,
-				E167E3291BA13C1C00BF3001 /* unicode.hpp */,
-				E167E32A1BA13C1C00BF3001 /* unpack.hpp */,
-				E167E32B1BA13C1C00BF3001 /* UnrarKit.h */,
-				E167E32C1BA13C1C00BF3001 /* URKArchive.h */,
-				E167E32D1BA13C1C00BF3001 /* URKFileInfo.h */,
-				E167E32E1BA13C1C00BF3001 /* version.hpp */,
-				E167E32F1BA13C1C00BF3001 /* volume.hpp */,
-			);
-			path = UnrarKit;
-			sourceTree = "<group>";
-		};
-		E167E3311BA13C1C00BF3001 /* ZipZap */ = {
-			isa = PBXGroup;
-			children = (
-				E167E3321BA13C1C00BF3001 /* include */,
-				E167E3391BA13C1C00BF3001 /* libZipZap.a */,
-			);
-			path = ZipZap;
-			sourceTree = "<group>";
-		};
-		E167E3321BA13C1C00BF3001 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				E167E3331BA13C1C00BF3001 /* ZipZap */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		E167E3331BA13C1C00BF3001 /* ZipZap */ = {
-			isa = PBXGroup;
-			children = (
-				E167E3341BA13C1C00BF3001 /* ZipZap.h */,
-				E167E3351BA13C1C00BF3001 /* ZZArchive.h */,
-				E167E3361BA13C1C00BF3001 /* ZZArchiveEntry.h */,
-				E167E3371BA13C1C00BF3001 /* ZZConstants.h */,
-				E167E3381BA13C1C00BF3001 /* ZZError.h */,
-			);
-			path = ZipZap;
-			sourceTree = "<group>";
-		};
 		E1ED60681C96F3A200985BAC /* screenShoot */ = {
 			isa = PBXGroup;
 			children = (
@@ -647,9 +445,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E167E29F1BA1338500BF3001 /* Build configuration list for PBXNativeTarget "ArchiveUnArchiveIniOS" */;
 			buildPhases = (
+				BAF0CECA34000BC920C2938F /* [CP] Check Pods Manifest.lock */,
 				E167E2781BA1338500BF3001 /* Sources */,
 				E167E2791BA1338500BF3001 /* Frameworks */,
 				E167E27A1BA1338500BF3001 /* Resources */,
+				12F44602A67633FE1CED926F /* [CP] Embed Pods Frameworks */,
+				76B06DA2514C6C2CD4BDE377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -735,6 +536,7 @@
 				E133B1AB1BA28E2C00C39984 /* testArchive.zip in Resources */,
 				E133B1A81BA288A200C39984 /* rarFolder.zip in Resources */,
 				E1ED606E1C96F3A200985BAC /* 3.png in Resources */,
+				E14831D61D13D59500793ADD /* testPwdZip.zip in Resources */,
 				E167E3451BA13C1C00BF3001 /* EUCTWFreq.tab in Resources */,
 				E167E3441BA13C1C00BF3001 /* EUCKRFreq.tab in Resources */,
 				E133B1AF1BA2A61500C39984 /* 顾西爵小说.zip in Resources */,
@@ -755,6 +557,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12F44602A67633FE1CED926F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchiveUnArchiveIniOS/Pods-ArchiveUnArchiveIniOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B06DA2514C6C2CD4BDE377 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchiveUnArchiveIniOS/Pods-ArchiveUnArchiveIniOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF0CECA34000BC920C2938F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E167E2781BA1338500BF3001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -764,7 +614,6 @@
 				E167E3561BA13C1C00BF3001 /* nsGB2312Prober.cpp in Sources */,
 				E133B19F1BA2866C00C39984 /* FileViewController.m in Sources */,
 				E167E3491BA13C1C00BF3001 /* LangBulgarianModel.cpp in Sources */,
-				E167E33C1BA13C1C00BF3001 /* ioapi.c in Sources */,
 				E167E33B1BA13C1C00BF3001 /* BDFileUtil.m in Sources */,
 				E167E34D1BA13C1C00BF3001 /* LangHungarianModel.cpp in Sources */,
 				E167E3591BA13C1C00BF3001 /* nsMBCSGroupProber.cpp in Sources */,
@@ -773,17 +622,14 @@
 				E167E34C1BA13C1C00BF3001 /* LangHebrewModel.cpp in Sources */,
 				E167E34A1BA13C1C00BF3001 /* LangCyrillicModel.cpp in Sources */,
 				E167E34F1BA13C1C00BF3001 /* nsBig5Prober.cpp in Sources */,
-				E167E33F1BA13C1C00BF3001 /* zip.c in Sources */,
 				E167E3421BA13C1C00BF3001 /* CharDistribution.cpp in Sources */,
 				E167E34E1BA13C1C00BF3001 /* LangThaiModel.cpp in Sources */,
 				E167E3571BA13C1C00BF3001 /* nsHebrewProber.cpp in Sources */,
 				E167E2851BA1338500BF3001 /* AppDelegate.m in Sources */,
 				E167E3481BA13C1C00BF3001 /* JpCntx.cpp in Sources */,
-				E167E33D1BA13C1C00BF3001 /* mztools.c in Sources */,
 				E167E3511BA13C1C00BF3001 /* nsEscCharsetProber.cpp in Sources */,
 				E133B1971BA273E000C39984 /* ArchiveUnArchiveViewController.m in Sources */,
 				E133B1A11BA2866C00C39984 /* RootViewController.m in Sources */,
-				E167E3401BA13C1C00BF3001 /* SSZipArchive.m in Sources */,
 				E167E35D1BA13C1C00BF3001 /* nsSJISProber.cpp in Sources */,
 				E167E3521BA13C1C00BF3001 /* nsEscSM.cpp in Sources */,
 				E167E3551BA13C1C00BF3001 /* nsEUCTWProber.cpp in Sources */,
@@ -795,7 +641,6 @@
 				E167E3611BA13C1C00BF3001 /* uchardet.cpp in Sources */,
 				E167E35E1BA13C1C00BF3001 /* nsUniversalDetector.cpp in Sources */,
 				E167E3501BA13C1C00BF3001 /* nsCharSetProber.cpp in Sources */,
-				E167E33E1BA13C1C00BF3001 /* unzip.c in Sources */,
 				E167E33A1BA13C1C00BF3001 /* BDCompressUtil.m in Sources */,
 				E167E35B1BA13C1C00BF3001 /* nsSBCharSetProber.cpp in Sources */,
 				E167E3541BA13C1C00BF3001 /* nsEUCKRProber.cpp in Sources */,
@@ -926,6 +771,7 @@
 		};
 		E167E2A01BA1338500BF3001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4E324949E55D5592C6A439 /* Pods-ArchiveUnArchiveIniOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -939,6 +785,7 @@
 					"$(PROJECT_DIR)/ThirdParty/ZipZap",
 				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-lc++",
 					"-all_load",
 				);
@@ -949,6 +796,7 @@
 		};
 		E167E2A11BA1338500BF3001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2202F6AB0E346F1BE3EC10 /* Pods-ArchiveUnArchiveIniOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -962,6 +810,7 @@
 					"$(PROJECT_DIR)/ThirdParty/ZipZap",
 				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-lc++",
 					"-all_load",
 				);

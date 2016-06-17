@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UnrarKit" "${PODS_ROOT}/Headers/Public/ZipArchiveFork" "${PODS_ROOT}/Headers/Public/zipzap"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/UnrarKit" "$PODS_CONFIGURATION_BUILD_DIR/ZipArchiveFork" "$PODS_CONFIGURATION_BUILD_DIR/zipzap"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/UnrarKit" -isystem "${PODS_ROOT}/Headers/Public/ZipArchiveFork" -isystem "${PODS_ROOT}/Headers/Public/zipzap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"UnrarKit" -l"ZipArchiveFork" -l"z" -l"zipzap" -framework "Foundation" -framework "ImageIO"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
